@@ -1,0 +1,92 @@
+         body { 
+	     background-color: #4f5456;
+	     color: #5F9EA0;
+	     font font-family: helvetica;
+	     font-size: 17px;
+         }
+
+         h1,h2{
+         color: #68abd4;
+         }
+
+         h1 {
+         font-family: 'Lora', serif;
+         font-size:34px;
+         }
+
+         h2 {
+         font-family: 'Roboto', sans-serif;
+         font-size:24px;
+         font-weight: lighter;
+         }
+
+
+         p,ul{ 
+         font-family: 'Open Sans', sans-serif;
+	     font-weight: lighter;
+	     font-size: 17px
+         }
+         a {
+	     text-decoration: none;
+	     color: #68abd4
+         }
+
+
+         a:hover {
+
+         color: #5F9EA0;
+         }
+
+
+         .container{
+	     width: 850px;
+	     margin:40px auto;
+         }
+         
+         .card-grey{ padding: 30px;
+          border-radius: 20px;
+          box-shadow: 0px 1px 11px 0px #090c0c; 
+          margin: 20px 0px;
+          text-align: center;
+         }
+         .responsive {
+         width: 100%;
+         max-width: 750px;
+         height: auto;
+         }
+
+         .responsive {
+         width: 100%;
+         max-width: 540px;
+         height: auto;
+         }
+
+         .responsive {
+         width: 100%;
+         max-width: 400px;
+         height: auto;
+         }
+
+         .list-inline{
+         	list-style: none;
+         	padding-left: 0px;
+         }
+
+         .list-inline li {
+         	display: inline;
+         	padding-left: 10px;
+         }
+         .list-inline i{
+         	font-size: 30px
+         }
+
+         @media (max-width: 720px) {
+         .container {
+         width: 500px;
+         }
+         }
+         @media (max-width: 540px) {
+         .container {
+         width: 300px;
+         }
+         }
